@@ -4,7 +4,7 @@ function adjustTextSizeOfFoundText() {
   if (selectedText !== '') {
     var foundElements = document.querySelectorAll(':contains(' + selectedText + ')');
     foundElements.forEach(function(element) {
-      element.style.fontSize = '18px'; // Adjust the font size as needed
+      element.style.fontSize = '180px'; // Adjust the font size as needed
     });
   }
 }
