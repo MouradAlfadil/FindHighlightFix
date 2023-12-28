@@ -1,4 +1,5 @@
 {
-  "backgroundColor": "red",
-  "textColor": "black"
+  "--background-color": "#FF0000",  // Red color
+  "--text-color": "#000000"         // Black color
 }
+
