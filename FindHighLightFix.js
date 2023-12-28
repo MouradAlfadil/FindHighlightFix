@@ -1,7 +1,7 @@
-document.addEventListener('mouseup', function() {
-  var selectedText = window.getSelection().toString().trim();
-  if (selectedText !== '') {
-    var foundElements = document.querySelectorAll(':contains(' + selectedText + ')');
+document.addEventListener('find', function(event) {
+  var foundText = event.target.toString().trim();
+  if (foundText !== '') {
+    var foundElements = document.querySelectorAll(':contains(' + foundText + ')');
     foundElements.forEach(function(element) {
       element.classList.add('found-text');
     });
